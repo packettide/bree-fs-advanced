@@ -12,6 +12,11 @@
         "illuminate/support": "4.0.x",
         "packettide/bree": "dev-master"
     },
+    "autoload": {
+        "psr-0": {
+            "Packettide\\BreeFsAdvanced": "src/"
+        }
+    },
     "scripts": {
         "post-install-cmd": [
             "php artisan asset:publish packettide/bree-fs-advanced"
@@ -19,11 +24,6 @@
         "post-update-cmd": [
             "php artisan asset:publish packettide/bree-fs-advanced"
         ]
-    },
-    "autoload": {
-        "psr-0": {
-            "Packettide\\BreeFsAdvanced": "src/"
-        }
     },
     "minimum-stability": "dev"
 }
