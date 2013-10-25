@@ -17,13 +17,5 @@
             "Packettide\\BreeFsAdvanced": "src/"
         }
     },
-    "scripts": {
-        "post-install-cmd": [
-            "php artisan asset:publish packettide/bree-fs-advanced"
-        ],
-        "post-update-cmd": [
-            "php artisan asset:publish packettide/bree-fs-advanced"
-        ]
-    },
     "minimum-stability": "dev"
 }
